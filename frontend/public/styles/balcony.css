@@ -1,0 +1,52 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body{
+  background-image: url('/images/balcony.png');
+  background-repeat: no-repeat;
+  background-size:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  max-width: 100vw;
+  max-height: 110vh;
+  overflow: hidden;
+}
+
+.balcony-game-board{
+  /* width: 100vw;
+  height: 100vh; */
+  position: relative;
+}
+
+.balcony-button {
+  margin-top: 300px;
+}
+
+#game-stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'B612 Mono', monospace;
+  /* color: #0BD7EC; */
+  padding: 10px;
+  margin: 30px;
+  width:100%;
+}
+
+#bus{
+  height: 50px;
+  width: auto;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+#vape{
+  height: 70px;
+  width: auto;
+  position: absolute;
+}
